@@ -19,9 +19,8 @@ contacts["Freddy Mercury"].each do |attribute, value|
       if attribute == :favorite_icecream_flavors
         value.delete_if do |flavor|
           flavor == "strawberry"
-      end
-    end
-  end
-  #remember to return your newly altered contacts hash!
+        end #end do 
+       end #end if 
+  end #end do 
   contacts
 end
